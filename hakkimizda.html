@@ -241,7 +241,46 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
       <li>
         <p>
             İnternetin ülkemizde son yıllarda çok çok büyük bir hızla gelişmesinden sonra internette bir yerlere kayıt olma sorunları baş göstermeye başladı. Eğer sizler de mail servislerine kaydolamıyor, mail sağlayıcınızda detay gerektiren işlemleri yapamıyorsanız sitemizde sizlerin faydalanacağı birçok anlatım bulunuyor. 
-İletişim Formu: Bakımda
+İletişim Formu: <h3 id="i̇letişim">İletişim</h3>
+
+<form action="/">
+
+    <label for="fname">E-Posta</label>
+    <input type="text" id="fname" placeholder="E-Postanız" />
+
+    <label for="subject">Soru</label>
+    <textarea id="subject" placeholder="Sorunuz veya mesajınız.. Size e-posta adresinizden ulaşacağız." style="height:200px"></textarea>
+
+    <input type="submit" value="Gönder" />
+
+  </form>
+
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+</style>
+
           </p>
       </li>
     </ul>
